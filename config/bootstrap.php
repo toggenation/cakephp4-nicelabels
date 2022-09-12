@@ -98,6 +98,7 @@ if (file_exists(CONFIG . 'toggen.php')) {
     Configure::load('toggen', 'default');
 }
 
+
 /*
  * When debug = true the metadata cache should only last
  * for a short time.
