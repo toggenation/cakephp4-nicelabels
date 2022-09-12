@@ -1,0 +1,23 @@
+# Settings for docker-compose.yaml
+# Copy this file to .env
+
+# Ports published on docker host
+# change these to not collide
+# with your other docker containers
+PORT=41
+FORWARD_DB_PORT=50${PORT}
+FORWARD_NGINX_PORT=60${PORT}
+FORWARD_REDIS_PORT=70${PORT}
+FORWARD_MAILHOG_DASHBOARD_PORT=80${PORT}
+FORWARD_MAILHOG_PORT=90${PORT}
+
+# MySQL 
+# DB_PASSWORD is also root password
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=devtest
+DB_USERNAME=devtest
+DB_PASSWORD=devtest
+
+
