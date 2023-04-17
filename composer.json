@@ -25,7 +25,7 @@
         "fakerphp/faker": "^1.20",
         "josegonzalez/dotenv": "^3.2",
         "mbezhanov/faker-provider-collection": "^2.0",
-        "phpunit/phpunit": "~8.5.0 || ^9.3",
+        "phpunit/phpunit": "^10.1.0",
         "toggenation/fake-barcode": "dev-main"
     },
     "suggest": {
